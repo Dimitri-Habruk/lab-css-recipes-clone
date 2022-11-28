@@ -79,7 +79,7 @@ h1{
 
 }
 .directions li:before{
-        content: counter(item) ') '; /* Добавляем к числам скобку */
+        content: counter(item) ') '; 
         counter-increment: item;
       
 }
